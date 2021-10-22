@@ -87,14 +87,33 @@ html {
 
 /* Jumbo */
 .container-jumbo {
+    height: 28em;
+    margin: 5em auto 0;
     background-color: #b4d0e7;
-    height: 50em;
+}
+
+.jumbo {
+    margin: 0 auto;
+    height: 80vh;
 }
 
 .title {
-    text-align: center;
+    font-size: 1.5em;
+    padding: 1em 0 0.5em;
 }
 
-/* .jumbo-btn {
-    display: block;
-} */
+.jumbo-paragraph {
+    padding-bottom: 2em;
+    font-size: 0.9em;
+}
+
+.jumbo-btn {
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.cancel-jumbo,
+.fa-arrow-down {
+    padding-top: 2em;
+}
+/* End Jumbo */

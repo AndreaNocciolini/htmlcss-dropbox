@@ -38,6 +38,10 @@ html {
     width: 80%;
 }
 
+.width-100 {
+    width: 100%;
+}
+
 .max-width {
     max-width: 100%;
 }
@@ -72,3 +76,9 @@ html {
     color: white;
 }
 /* End Header */
+
+/* Jumbo */
+.container-jumbo {
+    background-color: #b4d0e7;
+    height: 10em;
+}

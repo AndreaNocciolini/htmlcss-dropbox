@@ -34,6 +34,10 @@ html {
     width: 30%;
 }
 
+.width-60 {
+    width: 60%;
+}
+
 .width-70{
     width: 70%;
 }
@@ -117,3 +121,26 @@ html {
     padding-top: 2em;
 }
 /* End Jumbo */
+
+/* Main header */
+.main-header-section {
+    margin: 0 auto;
+}
+
+.main-header-section .main-header{
+    margin-top: 10em;
+}
+
+.main-header span .checkbox {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.main-header span .checkbox:hover {
+    border: 3px solid;
+    border-color: blue;
+}
+/* End Main header */

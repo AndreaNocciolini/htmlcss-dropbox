@@ -30,6 +30,9 @@ html {
     width: 10%;
 }
 
+.width-25 {
+    width: 25%;
+}
 .width-30 {
     width: 30%;
 }
@@ -152,5 +155,20 @@ html {
 /* End Main header */
 
 /* Subscription columns */
+.container-sub {
+    margin-top: 3em;
+}
 
+[class^="col-sub"] {
+    height: 40em;
+    border: 1px solid gray;
+}
+
+.col-sub-sx {
+    margin-left: 3.5em;
+}
+.col-sub-sx,
+.col-sub-mid {
+    margin-right: 2em;
+}
 /* End Subscription Columns */

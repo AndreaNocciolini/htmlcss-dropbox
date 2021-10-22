@@ -131,16 +131,26 @@ html {
     margin-top: 10em;
 }
 
+.subscription-title {
+    margin-bottom: 3em;
+}
+
 .main-header span .checkbox {
     display: inline-block;
     width: 1em;
     height: 1em;
     border: 1px solid grey;
     border-radius: 50%;
+    margin-right: 0.4em;
 }
 
 .main-header span .checkbox:hover {
     border: 3px solid;
     border-color: blue;
+    cursor: pointer;
 }
 /* End Main header */
+
+/* Subscription columns */
+
+/* End Subscription Columns */

@@ -34,6 +34,10 @@ html {
     width: 30%;
 }
 
+.width-70{
+    width: 70%;
+}
+
 .width-80 {
     width: 80%;
 }
@@ -70,15 +74,27 @@ html {
     color: black;
 }
 
-.nav-menu li .btn {
+#btn {
     padding: 0.5em 1em;
     background-color: #0061ff;
     color: white;
 }
+
+/* li:hover {
+    border-bottom: 2px solid blue;
+} */
 /* End Header */
 
 /* Jumbo */
 .container-jumbo {
     background-color: #b4d0e7;
-    height: 10em;
+    height: 50em;
 }
+
+.title {
+    text-align: center;
+}
+
+/* .jumbo-btn {
+    display: block;
+} */

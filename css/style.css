@@ -179,4 +179,14 @@ html {
 .col-sub-mid {
     margin-right: 2em;
 }
+
+.col-sub-header {
+    text-align: center;
+    line-height: 2em;
+}
+
+.col-sub-header h3 {
+    border-bottom: 1px solid gray;
+    color: gray;
+}
 /* End Subscription Columns */

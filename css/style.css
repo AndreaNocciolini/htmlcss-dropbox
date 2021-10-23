@@ -60,23 +60,26 @@ html {
 
 /* Header */
 .menu-header {
-    margin: 1.5em auto;
     font-size: x-small;
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    height: 5em;
 }
 
-.nav-menu {
+.nav-menu-header {
     list-style-type: none;
     line-height: 2em;
     margin-left: 2em;
 }
 
-.nav-menu li {
+.nav-menu-header li {
     display: inline-block;
     margin-right: 3em;
 }
 
-.nav-menu li a {
+.nav-menu-header li a {
     text-decoration: none;
     color: black;
 }
@@ -87,9 +90,13 @@ html {
     color: white;
 }
 
-/* li:hover {
-    border-bottom: 2px solid blue;
-} */
+.menu-header .menu-logo {
+    line-height: 5.7em;
+}
+
+.nav-menu-header {
+    line-height: 5em;
+}
 /* End Header */
 
 /* Jumbo */
@@ -117,6 +124,7 @@ html {
 .jumbo-btn {
     text-decoration: none;
     font-size: 0.9em;
+    display: inline-block;
 }
 
 .cancel-jumbo,

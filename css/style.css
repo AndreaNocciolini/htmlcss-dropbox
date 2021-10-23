@@ -185,8 +185,32 @@ html {
     line-height: 2em;
 }
 
-.col-sub-header h3 {
+.col-sub-header h4 {
     border-bottom: 1px solid gray;
     color: gray;
+    font-weight: lighter;
+}
+
+.col-sub-header .col-prices {
+    text-align: left;
+    padding: 1em;
+}
+
+.subtitle-price {
+    font-size: small;
+    color: gray;
+}
+
+.col-price-pro .col-price-pro-ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: small;
+}
+
+.col-price-btn {
+    margin-top: 3em;
+    margin-left: 0.9em;
+    padding: 0.5em 1.5em;
 }
 /* End Subscription Columns */

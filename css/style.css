@@ -173,11 +173,11 @@ html {
 }
 
 .col-sub-sx {
-    margin-left: 3.5em;
+    margin-left: 6.6em;
 }
-.col-sub-sx,
+
 .col-sub-mid {
-    margin-right: 2em;
+    margin: 0 1.7em;
 }
 
 .col-sub-header {
@@ -249,5 +249,12 @@ html {
     width: 1em;
     margin-left: -1em;
     padding-top: 1em;
+}
+
+.enterprise{
+    height: 20em;
+    border: 1px solid gray;
+    width: 80%;
+    margin: 3em auto;
 }
 /* End Subscription Columns */

@@ -266,7 +266,6 @@ html {
 /* ATTENTION: for the h4 inside the div.enterprise, I used the same rule as .col-sub-header h4 and .col-sub-header */
 .enterprise{
     border: 1px solid gray;
-    width: 80%;
     margin: 3em auto;
 }
 .enterprise-content {
@@ -294,3 +293,44 @@ html {
     font-weight: bold;
 }
 /* End Enterprise */
+
+/* Jumbo Main */
+
+.container-jumbo-main {
+    margin-left: 20.9em;
+}
+
+.container-jumbo-main .col-jmain-sx {
+    width: 32%;
+}
+
+.container-jumbo-main .col-jmain-dx {
+    margin-right: 20.9em;
+}
+
+.col-jmain-dx h3,
+.col-jmain-dx p {
+    margin-bottom: 1.8em;
+    line-height: 1.5em;
+}
+
+.col-jmain-dx p {
+    margin-bottom: 1.8em;
+}
+
+.find-partner-btn {
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 0.5em 1em;
+    color: gray;
+}
+/* End Jumbo Main */
+
+/* Dropbox Business */
+.container-dropbox-business {
+    margin: 2em 20.9em 0;
+}
+[class^="col-business"] {
+    padding: 1em;
+}
+/* End Dropbox Business */

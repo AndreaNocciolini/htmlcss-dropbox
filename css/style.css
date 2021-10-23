@@ -168,7 +168,7 @@ html {
 }
 
 [class^="col-sub"] {
-    height: 40em;
+    height: 57em;
     border: 1px solid gray;
 }
 
@@ -209,6 +209,7 @@ html {
 }
 
 .col-price-pro .col-price-pro-ul li,
+.col-price-highlights-ul li,
 .col-prices h3,
 .col-prices p {
     padding-left: 0.5em;
@@ -223,5 +224,29 @@ html {
 .buy-now {
     margin-left: 0.5em;
     margin-top: 3em;
+}
+
+.col-sub-header .buy-now::after {
+    content: '';
+    width: 20%;
+    height: 1px;
+    background-color: gray;
+    margin: 2em 0;
+    display: block;
+}
+
+.col-price-highlights-ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0.5em;
+    font-size: small;
+}
+
+.col-price-highlights-ul li::before {
+    content: "✔";
+    color: blue;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 /* End Subscription Columns */

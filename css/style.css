@@ -208,9 +208,20 @@ html {
     font-size: small;
 }
 
+.col-price-pro .col-price-pro-ul li,
+.col-prices h3,
+.col-prices p {
+    padding-left: 0.5em;
+}
+
 .col-price-btn {
     margin-top: 3em;
     margin-left: 0.9em;
     padding: 0.5em 1.5em;
+}
+
+.buy-now {
+    margin-left: 0.5em;
+    margin-top: 3em;
 }
 /* End Subscription Columns */

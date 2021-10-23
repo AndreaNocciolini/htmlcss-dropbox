@@ -248,5 +248,6 @@ html {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+    padding-top: 1em;
 }
 /* End Subscription Columns */

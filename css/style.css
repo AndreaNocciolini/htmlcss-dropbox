@@ -354,8 +354,7 @@ html {
 
 /* Dropbox Team Banner */
 .team-dropbox-system {
-    margin-left: 21.8em;
-    margin-top: 7em;
+    margin: 7em 15.1em 3em;
 }
 
 .team-dropbox-system h2 {
@@ -462,6 +461,10 @@ html {
 
 .dit-banner-title {
     margin-top: 6em;
+}
+
+.dit-banner-title h2 {
+    margin-left: 13em;
 }
 
 .dit-banner-title a {

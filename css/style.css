@@ -88,6 +88,7 @@ html {
     top: 0;
     background-color: white;
     height: 5em;
+    z-index: 999;
 }
 
 .nav-menu-header {
@@ -474,3 +475,25 @@ html {
     padding: 0.4em 1em;
 }
 /* End Design it */
+
+/* FAQ */
+.container-faq {
+    margin: 0 auto;
+    padding: 5em;
+    line-height: 4em;
+}
+
+.container-faq ul {
+    list-style-type: none;
+}
+
+.container-faq h2,
+.container-faq li {
+    border-bottom: 1px solid gray;
+}
+
+.container-faq ul li .fa-angle-down {
+    margin: 1.5em;
+}
+
+/* End FAQ */

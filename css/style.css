@@ -9,7 +9,7 @@ html {
     font-family: ‘Whitney’, sans-serif;
 }
 
-/* Float */
+/* Float and position */
 .clearfix::after {
     content: '';
     display: table;
@@ -23,7 +23,15 @@ html {
 .float-right {
     float: right;
 }
-/* End Float */
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+/* End Float and position */
 
 /* Width */
 .width-10{
@@ -35,6 +43,14 @@ html {
 }
 .width-30 {
     width: 30%;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-50 {
+    width: 50%;
 }
 
 .width-60 {
@@ -300,10 +316,6 @@ html {
     margin-left: 20.9em;
 }
 
-.container-jumbo-main .col-jmain-sx {
-    width: 32%;
-}
-
 .container-jumbo-main .col-jmain-dx {
     margin-right: 20.9em;
 }
@@ -334,3 +346,121 @@ html {
     padding: 1em;
 }
 /* End Dropbox Business */
+
+/* Dropbox Team Banner */
+.team-dropbox-system {
+    margin-left: 21.8em;
+    margin-top: 7em;
+}
+
+.team-dropbox-system h2 {
+    line-height: 1.4em;
+}
+
+.team-dropbox-system a {
+    line-height: 4em;
+}
+/* End Dropbox Team Banner */
+
+/* Design it */
+.square {
+    height: 10em;
+}
+
+.designit-banner-mid {
+    height: 20em;
+}
+
+.square img {
+    padding: 3em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%)
+}
+
+#designit-logo {
+    padding: 2em;
+}
+
+#designit-logo-border {
+    border: 10px solid #d0e9cd;
+}
+
+.designit-banner-mid {
+    padding: 2em;
+}
+
+.title-designit {
+    line-height: 0.9em;
+}
+
+.title-designit h6::after {
+    content: '';
+    width: 20%;
+    height: 1px;
+    background-color: gray;
+    margin: 2em 0;
+    display: block;
+}
+
+.main-p-designit {
+    margin: 3em auto;
+}
+
+.bg-img-square-designit {
+    background-color: #a2d39b;
+}
+
+.bg-img-square-arizona {
+    background-color: #61082b;
+}
+
+.bg-img-square-florida {
+    background-color: #0093ce;
+}
+
+.bg-img-square-topps {
+    background-color: #ff1c1c;
+}
+
+.bg-img-square-bycicle {
+    background-color: #d5001f;
+}
+
+.bg-img-square-hearst {
+    background-color: #b4d0e7;
+}
+
+.bg-img-square-planet {
+    background-color: #0d2481;
+}
+
+.bg-img-square-channel {
+    background-color: #ffd830;
+}
+
+.bg-color-banner-mid {
+    background-color: #f5f5f5;
+}
+
+.designit-banner {
+    background-color: #b4d0e7;
+    height: 15em;
+}
+
+.dit-banner-title {
+    margin-top: 3.9em;
+    margin-left: 3.9em;
+    color: #61082b;
+}
+
+.dit-banner-title {
+    margin-top: 6em;
+}
+
+.dit-banner-title a {
+    text-decoration: none;
+    color: black;
+}
+/* End Design it */

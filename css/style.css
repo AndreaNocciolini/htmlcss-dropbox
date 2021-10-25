@@ -462,5 +462,7 @@ html {
 .dit-banner-title a {
     text-decoration: none;
     color: black;
+    background-color: white;
+    padding: 0.4em 1em;
 }
 /* End Design it */

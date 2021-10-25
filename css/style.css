@@ -194,12 +194,12 @@ html {
     border: 1px solid gray;
 }
 
-.col-sub-sx {
-    margin-left: 6.6em;
+.col-sub-dx {
+    margin-left: 0.5em;
 }
 
 .col-sub-mid {
-    margin: 0 1.7em;
+    margin: 0 2.4em;
 }
 
 .col-sub-header,
@@ -340,10 +340,15 @@ html {
 
 /* Dropbox Business */
 .container-dropbox-business {
-    margin: 2em 20.9em 0;
+    margin: 2em auto;
 }
+
 [class^="col-business"] {
     padding: 1em;
+}
+
+.col-business-mid {
+    margin: 0 3.3em;
 }
 /* End Dropbox Business */
 

@@ -119,6 +119,10 @@ html {
     border-bottom: 1px solid blue;
 }
 
+.nav-menu-header .btn-decoration:hover {
+    border-bottom: none;
+}
+
 #btn {
     padding: 0.5em 1em;
     background-color: #0061ff;

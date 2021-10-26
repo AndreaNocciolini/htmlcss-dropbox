@@ -509,8 +509,13 @@ html {
     line-height: 4em;
 }
 
+.container-faq ul li {
+    font-weight: bold;
+}
+
 .container-faq ul li:hover .hide-text {
     display: block;
+    font-weight: normal;
 }
 
 .container-faq ul li:hover .rotate {

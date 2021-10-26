@@ -10,6 +10,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.jumbo-btn:hover,
+#btn:hover,
+.white-btn:hover {
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.77);
+}
+
 /* Float and position */
 .clearfix::after {
     content: '';
@@ -322,11 +328,7 @@ html {
 /* Jumbo Main */
 
 .container-jumbo-main {
-    margin-left: 20.9em;
-}
-
-.container-jumbo-main .col-jmain-dx {
-    margin-right: 20.9em;
+    margin:0 auto;
 }
 
 .col-jmain-dx h3,

@@ -179,7 +179,7 @@ html {
     margin-right: 0.4em;
 }
 
-.main-header span .checkbox:hover {
+.main-header span .checkbox:active {
     border: 3px solid;
     border-color: blue;
     cursor: pointer;
@@ -192,7 +192,7 @@ html {
 }
 
 [class^="col-sub"] {
-    height: 57em;
+    min-height: 70em;
     border: 1px solid gray;
 }
 

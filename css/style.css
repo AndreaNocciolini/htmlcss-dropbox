@@ -500,6 +500,19 @@ html {
     line-height: 4em;
 }
 
+.container-faq ul li:hover .hide-text {
+    display: block;
+}
+
+.container-faq ul li:hover .rotate {
+    transform: rotate(180deg);
+}
+
+.hide-text {
+    display: none;
+    line-height: 1.6em;
+}
+
 .container-faq ul {
     list-style-type: none;
 }

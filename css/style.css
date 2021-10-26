@@ -194,7 +194,8 @@ html {
     margin-right: 0.4em;
 }
 
-.main-header span .checkbox:active {
+.main-header span .checkbox:active,
+.main-header span .checkbox :target {
     border: 3px solid;
     border-color: blue;
     cursor: pointer;

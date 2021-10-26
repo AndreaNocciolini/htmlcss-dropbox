@@ -223,6 +223,17 @@ html {
     color: gray;
 }
 
+.list-icon {
+    display: block;
+    line-height: 2.5em;
+    margin-right: 0.7em;
+}
+
+.list-text {
+    display: block;
+    width: 90%;
+}
+
 .col-price-pro .col-price-pro-ul {
     list-style: none;
     margin-left: 0;

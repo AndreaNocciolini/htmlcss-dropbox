@@ -114,6 +114,11 @@ html {
     color: black;
 }
 
+.menu-logo a:hover,
+.nav-menu-header li:hover {
+    border-bottom: 1px solid blue;
+}
+
 #btn {
     padding: 0.5em 1em;
     background-color: #0061ff;

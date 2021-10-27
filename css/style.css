@@ -89,7 +89,7 @@ html {
 
 /* Header */
 .menu-header {
-    font-size: x-small;
+    font-size: small;
     font-weight: bold;
     position: fixed;
     top: 0;
@@ -369,7 +369,7 @@ html {
 }
 
 .col-business-mid {
-    margin: 0 3.3em;
+    margin: 0 5%;
 }
 /* End Dropbox Business */
 
